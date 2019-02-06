@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+   </head>
+<body style="font-family:Arial">
+   
+</html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width:100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 17px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #F0260E;
+  color: #FFFF
+}
+
+.panel {
+  padding: 0 15px;
+  background-color: #white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+</style></span>
+</head>
+<body img >
+</p>
+
+<img 
+src="WebBanner2.png" class="responsive">
+
+
+
+
+
+<h2> NPS - FREQUENTLY ASKED QUESTIONS</h2>
+<p>Click on the question to view the response.</p>
+
+<button class="accordion">Q: What does NPS mean?</button>
+<div class="panel">
+  <p>A: NPS stands for Net Promoter Score. This is a rating system between 1-10 of customer sastifaction with 10 being the top score.</p>  * Any score between 1-6 is classed as a "Detractor", meaning the customer would not necessarily recommend our services.</p>  * A score of 9-10 is classed as a "Promoter", a customer is extremely happy with their experience and will tell other people (Promote).</p>  * A score between 7-8 is a "Passive" score.  Customer is neither happy or unhappy.    
+</p>
+</div>
+
+<button class="accordion">Q: I haven't got access to NPS</button>
+<div class="panel">
+  <p> A: Reasons:  1) You have recently been promoted,  2) You have moved stores, 3) you have changed brands or 4) you have changed your name (eg:maiden to married).  *Check the FAQs under those questions.  <p> New TLs and ATLs have to be given access to the Dashboards to view NPS Cases : - Please raise an issue with FC Technology via the "Service Me" Portal on Flight Deck to be granted access to Microsoft CRM/NPS.</p> 
+</div>
+
+
+<button class="accordion">Q: Why have I got an email about a Complaint or Compliment? </button>
+<div class="panel">
+  <p>A:  When a NPS Survey comes back with a score of 1-6, a Complaint case is created and email sent to the TL and ATL to advise.  The customer will be emailed and advised that a Business Leader will be contacting them within 48hrs.  If no action is taken or the Case is not resolved, it will be escalated to the Area Leader to be actioned.</p>  When a NPS Survey has a score of 9-10, a Compliment case is created.  No action needs to be taken with those.
+</p>
+</div>
+
+<button class="accordion">Q: I can't view/open a case.   </button>
+<div class="panel">
+  <p> A: Try to log in from the HUB: Microsoft CRM. If you cannot log in at all, please log a Issue with FC Technology via the "Service Me" portal on Flight Deck.
+  <p> A: If you are able to LOG IN but cannot view a particular case, it either was not assigned to you or your store, or has missed the timeframe to be resolved and has been escalated.  Contact your Area Leader to get details and advise them that they will need to click on "Resolve" to close the case. </p>
+</div>
+
+<button class="accordion">Q: A complaint case email was escalated to my Area Leader but I've never received it </button>
+<div class="panel">
+  <p>A: All cases are routed to the TL and ATL first.  If your store TL and ATL hasn't been updated in the CRM, you may not have received the email.  Please contact your Area Leader.  The Case can be reassigned to the TL or ATL or the AL can close it.   Your AL can also check if TL/ATL info for store needs to be updated.
+</p>
+</div>
+
+<button class="accordion">Q:  A case has been escalated to my Area Leader and I can't access it anymore.
+</button>
+<div class="panel">
+  <p>A:  Please contact your Area Leader to resolve.  If you need to access this case, your AL can request for the case to be re-assigned back to you.
+</p>
+</div>
+
+
+<button class="accordion">Q: I get an error message when I click on the link</button>
+<div class="panel">
+  <p> A: Try to log in from the HUB then searching for the case.
+  <p> A: If you cannot log in at all, please log a job with Service Centre (Service Me) and request:  CRM Log in changes as your email address has changed.  
+</p>
+</div>
+
+
+<button class="accordion">Q: I'm a new Team Leader / ATL</button>
+<div class="panel">
+  <p>A:  Please log a job with Service Centre (Service Me) to be given access to the NPS Dashboards</p>
+</div>
+
+<button class="accordion">Q: I recently moved stores
+</button>
+<div class="panel">
+  <p>A:  Please log a job with Service Centre (Service Me) to be changed to your new store
+</p>
+</div>
+
+<button class="accordion">Q:  I recently changed Brands - eg: Student Flights to FC
+</button>
+<div class="panel">
+  <p>A:  Please log a job with Service Centre (Service Me) and request:  CRM Log in changes as your email address has changed.  If your new store is on NPS and you are a TL or ATL, you will need to be given access to view results and cases
+</p>
+</div>
+
+<button class="accordion">Q: I recently changed my name and my email address has changed
+</button>
+<div class="panel">
+  <p>A:  Please log a job with Service Centre (Service Me) and request:  CRM Log in changes as your email address has changed and log in must match your prime email address in Core.
+</p>
+</div>
+
+
+<button class="accordion">Q: I don't think my NPS score is correct</button>
+<div class="panel">
+  <p>A: Speak to your Area Leader to check for discrepancies, or raise a job with Service Centre to investigate.
+</p>
+</div>
+
+<button class="accordion">Q: I haven't received any NPS Cases for my store</button>
+<div class="panel">
+  <p>A: If your store was set up to receive NPS Cases and you have never received them or it has been some time since the last one, speak to your Area Leader first to check for discrepancies.  If need be, raise a job with Service Centre to investigate and remedy.
+</p>
+</div>
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>
